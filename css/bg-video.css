@@ -85,19 +85,19 @@
 
   @media(max-width:600px){
     #myVideo {
-      bottom: 3%;
+      bottom: 0%;
     }
     .content h1{
       font-family: 'Frutiger Bold';
       font-size: 34pt;
       position: relative;
-      top: -80%;
+      top: -50%;
     }
     .content p{
       font-family: 'Frutiger 45 Light'; 
       font-size: 18pt;
       position: relative;
-      top:-130%;
+      top:-120%;
     }
     .content span{
       position: relative;
