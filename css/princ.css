@@ -237,14 +237,18 @@ footer .social p{
 
 @media(max-width:720px){
     nav form input{
-        width: 13vw;
+        width: 8vw;
     }
     nav form input::-webkit-input-placeholder{
         visibility: hidden;
     }
     label[for="hub-menu"]{
         display: block;
-        margin-left: -4%;
+        margin-left: -6%;
+    }
+    nav ul{
+        position: relative;
+        left: -6%;
     }
 
 

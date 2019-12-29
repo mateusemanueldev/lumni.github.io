@@ -244,9 +244,12 @@ main form button:hover{
 }
 @media (max-width:720px){
     .rel li{
-        padding: 8em;
-        margin:15pt;
+        padding: 7em;
+        margin: 8pt;
         z-index: 0;
+    }
+    .rel li:hover{
+        -webkit-transform: scale(1.1);
     }
 }
 

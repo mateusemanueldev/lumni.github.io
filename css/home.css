@@ -224,6 +224,11 @@ html{
         height: 55%;
     }
 }
+@media(max-width:720px){
+    .h-stoque img{
+        height: 50%;
+    }
+}
 
 @media(max-width:600px){
     .favorite{
