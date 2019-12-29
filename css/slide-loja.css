@@ -154,6 +154,23 @@
     #slider figure img{
         box-shadow:none;
     }
+    .open-store h1{
+        margin: 0 20pt;
+    }
+}
+@media(max-width:720px){
+    .promo-slider .etq-promo i{
+        font-size: 3em;
+        margin: 8pt 0;
+    }
+    .promo-slider .etq-promo {
+        width: 103%;
+        height: 60%;
+    }
+    .promo-slider .etq-promo ul{
+        position: relative;
+        left: -2%;
+    }
 }
 
 @media(max-width:600px){

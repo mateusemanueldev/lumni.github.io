@@ -300,6 +300,15 @@
     #modal-post .modal .conteudo-post label{
         text-align: center;
     }
+}
+@media(max-width:720px){
+    #modal-post .modal .post-user{
+        cursor: default;
+        padding-bottom: 0;
+        width: 100%;
+        grid-template-columns: auto;
+        margin-top: 165%;
+    }
 }  
 
 @media (max-width:600px){

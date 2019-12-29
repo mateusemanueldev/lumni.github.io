@@ -235,6 +235,19 @@ footer .social p{
     
 }
 
+@media(max-width:720px){
+    nav form input{
+        width: 13vw;
+    }
+    nav form input::-webkit-input-placeholder{
+        visibility: hidden;
+    }
+    label[for="hub-menu"]{
+        display: block;
+        margin-left: -4%;
+    }
+
+
 @media (max-width:600px){
     nav{
         justify-content: center;
@@ -300,11 +313,5 @@ footer .social p{
         align-items: center;
         font-size: 16pt;
     }
-    
-}
-
-@media (max-width:600px){
-    nav form button:hover ~ nav form input{
-        display: block;
     }
 }

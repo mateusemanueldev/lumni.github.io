@@ -242,6 +242,13 @@ main form button:hover{
         text-align: justify;
     }
 }
+@media (max-width:720px){
+    .rel li{
+        padding: 8em;
+        margin:15pt;
+        z-index: 0;
+    }
+}
 
 @media (max-width:600px){
     .rel {

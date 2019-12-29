@@ -299,6 +299,13 @@ main{
     }
 }
 
+@media(max-width:720px){
+    .more2{
+        position: relative;
+        margin-left: 0%;
+    }
+}
+
 @media (max-width:600px){
     #forum-user button{
         padding: 0;

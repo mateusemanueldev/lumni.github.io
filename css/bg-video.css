@@ -82,6 +82,17 @@
       bottom: 0%;
     }
   }
+  @media(max-width:720px){
+    .content{
+      height: 150%;
+    }
+    .content h1{
+      margin:0 20pt;
+    }
+    #vertical-menu a{
+      margin-top: 25%;
+    }
+  }
 
   @media(max-width:600px){
     #myVideo {
@@ -90,12 +101,12 @@
     .content h1{
       font-family: 'Frutiger Bold';
       font-size: 34pt;
-      margin: 0;
+      margin: -55% 0 0 0;
     }
     .content p{
       font-family: 'Frutiger 45 Light'; 
       font-size: 18pt;
-      margin-top: -5%;
+      margin: 0%;
     }
     .content span{
       cursor: pointer;

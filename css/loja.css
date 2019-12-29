@@ -336,6 +336,48 @@ body{
 
 }
 
+@media(max-width:720px){
+    .h-stoque{
+        grid-template-columns: auto;
+        margin: 0 1em;
+        position: relative;
+        top: 0%;
+    }
+    
+    .h-stoque li{
+        width: 90%;
+        margin: 15pt 0;
+    }
+    .h-stoque img{
+        height: 58%;
+    }
+    .filtros-loja{
+        position: relative;
+        top: 35pt;
+    }
+    .cab-prod{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 4em 10pt 0 10pt;
+
+    }
+    .cab-prod h1{
+        width: 90%;
+        position: relative;
+        left: -5%;
+    }
+    #vertical-menu a{
+        display: block;
+        background-color: rgb(16,18,64);
+        filter: brightness(180%);
+        color: white; 
+        margin-top: 45%;
+        left: -33%;
+        z-index: 20;
+    }
+}
+
 @media(max-width:600px){
     .view-mob{
         display: block;

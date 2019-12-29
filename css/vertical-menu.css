@@ -154,6 +154,11 @@
         margin-top: 45%;
     }
   }
+  @media(max-width:720px){
+    #vertical-menu a{
+      z-index: 20;
+  }
+  }
 
   @media(max-width:600px){
     #vertical-menu a{
