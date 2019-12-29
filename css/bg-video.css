@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Frutiger 45 Light'; 
+  src: url("../fonts/frutiger-45-light.otf");
+}
+
+@font-face {
+  font-family: 'Frutiger Bold';
+  src: url("../fonts/Frutiger\ Bold.ttf");
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 5%;  
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: absolute;
+    display: grid;
+    bottom: 0;
+    background: rgba(114, 32, 115, 0.514);
+    color: #f1f1f1;
+    width: 100%;
+    height: 130%;
+    top: 0%;
+    padding: 0;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+  }
+  .content h1,p{
+    text-align: center;
+  }
+  .content h1{
+    font-family: 'Frutiger Bold';
+    font-size: 45pt;
+    position: relative;
+    top:-54%;
+  }
+  .content p{
+    font-family: 'Frutiger 45 Light'; 
+    font-size: 20pt;
+    position: relative;
+    top:-180%;
+  }
+  .content span{
+    position: relative;
+    top: -220%;
+    cursor: pointer;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  @media(max-width:800px){
+    .content h1{
+      margin-top: -25%;
+    }
+    .content p {
+      position: relative;
+      top: -120%;
+    }
+    .content span{
+      position: relative;
+      top: -180%;
+      cursor: pointer;
+    }
+    #myVideo {
+      bottom: 0%;
+    }
+  }
+
+  @media(max-width:600px){
+    #myVideo {
+      bottom: 3%;
+    }
+    .content h1{
+      font-family: 'Frutiger Bold';
+      font-size: 34pt;
+      position: relative;
+      top: -80%;
+    }
+    .content p{
+      font-family: 'Frutiger 45 Light'; 
+      font-size: 18pt;
+      position: relative;
+      top:-130%;
+    }
+    .content span{
+      position: relative;
+      top: -200%;
+      cursor: pointer;
+    }
+  }
