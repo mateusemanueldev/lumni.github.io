@@ -90,18 +90,19 @@
     .content h1{
       font-family: 'Frutiger Bold';
       font-size: 34pt;
-      position: relative;
-      top: -50%;
+      margin: 0;
     }
     .content p{
       font-family: 'Frutiger 45 Light'; 
       font-size: 18pt;
-      position: relative;
-      top:-120%;
+      margin-top: -5%;
     }
     .content span{
-      position: relative;
-      top: -200%;
       cursor: pointer;
+    }
+    .content {
+      padding: 0;
+      margin: 0;
+      height: 100%;
     }
   }
