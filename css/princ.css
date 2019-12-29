@@ -223,10 +223,16 @@ footer .social p{
     }
     label[for="hub-menu"]{
         display: block;
+        margin-left: -5%;
     }
     .nav-link{
         display: none;
     }
+    nav ul{
+        position: relative;
+        left: -5%;
+    }
+    
 }
 
 @media (max-width:600px){

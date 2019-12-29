@@ -294,6 +294,9 @@ body{
         grid-template-columns: auto auto;
         margin: 0 1em;
     }
+    .h-stoque h3{
+        font-size: 16pt;
+    }
     .h-stoque img{
         width: 100%;
         height: 50%;
