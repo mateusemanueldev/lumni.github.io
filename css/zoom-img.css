@@ -11,3 +11,9 @@
     width: 100px;
     height: 100px;
   }
+
+@media(max-width:600px){
+  .img-magnifier-glass{
+    display: none;
+  }
+}
