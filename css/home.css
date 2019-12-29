@@ -228,6 +228,9 @@ html{
     .h-stoque img{
         height: 50%;
     }
+    #sc-news{
+        margin-top: 145%;
+    }
 }
 
 @media(max-width:600px){
