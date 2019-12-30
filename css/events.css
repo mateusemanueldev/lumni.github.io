@@ -669,3 +669,51 @@ strong{
         left: 0%;
     }
 }
+@media(max-width:320px){
+    .calendar{
+        width: 85%;
+    }
+    .aside-events form input{
+        width: 160pt;
+    }
+    .aside-events h2{
+        font-size: 3em;
+    }
+    .main-events h1{
+        font-size: 25pt;
+    }
+    #img-event1{
+        width: 100%;
+        height: 150pt;
+        position: relative;
+        margin: 5pt auto;
+
+    }
+    #img-event2{
+        width: 100%;
+        height: 150pt;
+        position: relative;
+        margin: 5pt auto;
+
+    }
+
+    #img-event3{
+        width: 100%;
+        height: 150pt;
+        position: relative;
+        margin: 5pt auto;
+
+    }
+    #img-event4{
+        width: 100%;
+        height: 150pt;
+        position: relative;
+        margin: 5pt auto;
+    }
+    .cont-event li{
+        position: relative;
+        margin: 5pt auto;
+        width: 85%;
+    }
+   
+}

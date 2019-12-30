@@ -47,3 +47,8 @@
     right: 35px;
     }
   }
+  @media(max-width:320px){
+    .container-mob-menu a {
+      font-size: 30px;
+    }
+  }

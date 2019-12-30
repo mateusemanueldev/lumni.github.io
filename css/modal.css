@@ -342,3 +342,28 @@
         width: 75%;
     }
 }
+@media(max-width:320px){
+    .modal{
+        min-width: 220px;
+    }
+    #modal-post .modal .post-user{
+        width: 100%;
+        padding: 5pt;
+    }
+    #modal-post .modal .post-user h2{
+        font-size: 15pt;
+        margin: 5pt 0;
+    }
+    #modal-post .modal .post-user p{
+       padding: 0 10pt;
+    }
+    #modal-post .modal .post-user iframe{
+        width: 95%;
+        margin: 5pt auto;
+    }
+    #modal-post .modal .perfil-user{
+        position: relative;
+        top: 22%;
+    }
+}
+

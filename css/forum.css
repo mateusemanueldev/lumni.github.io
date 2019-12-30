@@ -406,3 +406,50 @@ main{
         text-align: center;
     }
 }
+
+@media(max-width:320px){
+    .aside-forum div{
+        width: 73%;
+        position: relative;
+        right: -3%;
+    }
+    .main-forum{
+        margin:0;
+        padding:0;
+        position: relative;
+        left: -17pt;
+        width: 93%;
+    }
+    #forum-user button{
+        padding: 0;
+        margin: 0;
+        width: 30pt;
+    }
+    nav ul {
+        margin-left: -2%;
+    }
+    #logo{
+        margin-left: 0pt;
+    }
+    .post-user .conteudo-post{
+        position: relative;
+        left: -3%;
+    }
+    .presentation-forum h2{
+        font-size: 4em;
+    }
+    .presentation-forum p{
+        font-size: 18pt;
+    }
+    label[for="hub-menu"]{
+        left: -2%;
+    } 
+    .post-user legend{
+        position: relative;
+        margin: 10pt auto;
+    }
+    .more2{
+        position: relative;
+        margin-left: 12%;
+    }
+}

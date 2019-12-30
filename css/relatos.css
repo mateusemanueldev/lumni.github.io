@@ -286,3 +286,13 @@ main form button:hover{
         margin-right: 8em;
     }
 }
+@media(max-width:320px){
+    main button{
+        width: 100%;
+        position: relative;
+        left: 20%;
+    }
+    .rel li{
+        padding: 7em;
+    }
+}

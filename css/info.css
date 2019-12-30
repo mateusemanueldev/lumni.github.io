@@ -713,3 +713,21 @@ footer{
         z-index: 0;
     }
 }
+
+@media(max-width:320px){
+    .foto-legenda h3{
+        margin: 15pt 0 0 0;
+    }
+    .foto-legenda ul{
+        padding: 0pt;
+    }
+    .foto-legenda li{
+        margin: 4pt;
+    }
+    .s7 h2{
+        font-size: 40pt;
+    }
+    .s8,.s9,.s10,.s11,.s12,.s13, h2{
+        font-size: 8pt;
+    }
+}
