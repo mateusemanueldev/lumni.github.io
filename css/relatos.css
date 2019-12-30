@@ -295,4 +295,7 @@ main form button:hover{
     .rel li{
         padding: 7em;
     }
+    .rel li:hover{
+        -webkit-transform: scale(1.2);
+    }
 }

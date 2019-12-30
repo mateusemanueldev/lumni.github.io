@@ -345,6 +345,7 @@
 @media(max-width:320px){
     .modal{
         min-width: 220px;
+        margin-top: 5%;
     }
     #modal-post .modal .post-user{
         width: 100%;

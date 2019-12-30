@@ -326,7 +326,7 @@ footer .social p{
         left: -10%;
     }
     label[for="hub-menu"]{
-        top: 2pt;
+        top: 0;
         left: -4%;
     } 
 }
