@@ -320,12 +320,13 @@ footer .social p{
     }
 }
 
-@media (max-width:320px){
+@media (max-width:320px){ 
     nav ul{
         position: relative;
         left: -10%;
     }
     label[for="hub-menu"]{
+        top: 1pt;
         left: -4%;
     } 
 }

@@ -121,6 +121,6 @@
   @media(max-width:320px){
     .content p{
         position: relative;
-        top: -95%;
+        top: -85%;
     }
   }
